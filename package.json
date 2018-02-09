@@ -2,7 +2,7 @@
   "name": "aws",
   "version": "1.0.0",
   "description": "aws 3 ionic server",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
