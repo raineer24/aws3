@@ -4,8 +4,8 @@ const aws = require('aws-sdk');
 var secrets = require('./secrets');
 
 const s3 = new aws.S3({
-    signatureVersion: 'v4',
-    region: 'eu-central-2'
+  signatureVersion: "v4",
+  region: "us-east-2"
 });
 
 exports.signedRequest = function (req, res) {
