@@ -3,4 +3,6 @@ https://www.youtube.com/watch?v=uOK3_BbynRE
 
 NPM INSTALL
 
-RUN heroku local
+npm install heroku-cli -g
+
+RUN = >    heroku local
